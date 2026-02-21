@@ -1,0 +1,33 @@
+
+
+.detail-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.detail-left {
+  text-align: center;
+}
+
+.detail-left img {
+  width: 260px;
+  border-radius: 12px;
+}
+
+.detail-right {
+  background: #eee;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.reserve-btn {
+  margin-top: 20px;
+  background: #e76f51;
+  border: none;
+  padding: 10px 24px;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}

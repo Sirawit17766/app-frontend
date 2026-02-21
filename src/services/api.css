@@ -1,0 +1,64 @@
+.api-tester {
+  margin-top: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.api-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.api-form select,
+.api-form button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 14px;
+}
+
+.api-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.api-form button:hover {
+  background: #1d4ed8;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.api-response {
+  margin-top: 16px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.json {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 13px;
+}

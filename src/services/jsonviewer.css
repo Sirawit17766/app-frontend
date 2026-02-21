@@ -1,0 +1,41 @@
+.json-viewer {
+  background: #0b1220;
+  color: #e5e7eb;
+
+  padding: 18px 20px;
+  border-radius: 14px;
+
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Fira Code", Consolas, monospace;
+
+  text-align: left;        
+  white-space: pre;          
+  width: 100%;               
+  box-sizing: border-box;
+
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 320px;
+}
+
+/* syntax highlight */
+.json-viewer .key {
+  color: #38bdf8;
+}
+
+.json-viewer .string {
+  color: #a7f3d0;
+}
+
+.json-viewer .number {
+  color: #fbbf24;
+}
+
+.json-viewer .boolean {
+  color: #f472b6;
+}
+
+.json-viewer .null {
+  color: #94a3b8;
+}
